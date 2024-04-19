@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #faf7f7;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+.node {
+    width: 128px;
+    height: 128px;
+    border: 2px solid #ffffff;
+    background-color: #fefefe;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+button, input {
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #fefefe;
+}
+
+input:focus {
+    outline: none;
+}
+
+.addParent, .addChild, .addSibling, .addSpouse {
+    border-radius: 8px;
+}
+
+#newTreeBtn, #savedTreeBtn {
+    margin: 4px;
+}
+
+#nodeText {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
